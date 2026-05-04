@@ -1,10 +1,8 @@
- IT3040-ITPM-Assignment-1
-
  QA Automation - Chat Translator (Playwright)
 
 This repository contains an automated frontend testing script for the [PixelsSuite Chat Translator](https://www.pixelssuite.com/chat-translator). The script is built using Python and Playwright. It reads test cases from an Excel file and automates the browser interactions to verify the system's output.
 
-Prerequisites
+## Prerequisites
 
 Before running the script, ensure you have the following installed on your machine:
 * Python 3.10 or higher
@@ -12,11 +10,11 @@ Before running the script, ensure you have the following installed on your machi
 
 ## Installation & Setup
 
-1. Install required Python packages
+1. **Install required Python packages:**
    Open your terminal and run the following command to install Playwright and OpenPyxl (for handling Excel files):
    ```bash
    pip install playwright openpyxl
-   Install Playwright browsers:
+2.Install Playwright browsers:
 Run the following command to download the necessary browser binaries (Chromium):
 
 Bash
@@ -32,5 +30,3 @@ Repository Structure
 test_automation.py : The main Python automation script using Playwright.
 
 tesings.xlsx : The Excel file containing the Singlish to Sinhala test cases (Inputs and Expected Outputs).
-
-README.md : Project documentation and instructions.
